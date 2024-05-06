@@ -4,3 +4,4 @@ def make_shirt(tamanho, mensagem):
 
 
 make_shirt("m", "camiseta de teste")
+make_shirt(mensagem="camiseta de teste", tamanho="M")

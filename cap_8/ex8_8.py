@@ -11,3 +11,9 @@ while True:
     banda = input("Qual o nome da banda?")
     título = input("Qual o nome do disco?")
     faixas = input("Quantas faixas tem o disco?")
+
+    print(make_album)
+    break
+
+entrada = make_album(banda, título, faixas)
+print(entrada)
