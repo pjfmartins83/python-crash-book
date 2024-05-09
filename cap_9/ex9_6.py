@@ -19,7 +19,7 @@ class IceCreamStand(Restaurant):
             print(flavour.title())
 
 
-icecream = IceCreamStand("Sorveteria Teste")
+icecream = IceCreamStand("Sorveteria Teste", "sorveteria", "chocolate")
 icecream.flavours = ["chocolate", "morango", "baunilha"]
 icecream.describe_restaurant()
 icecream.describe_flavours()

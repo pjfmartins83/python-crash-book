@@ -15,9 +15,7 @@ class User():
         print("Hello, " + self.first_name.title() + " " + self.last_name.title() + ". Welcome to our site!")
 
     def increment_login_attempts(self, increment):
-        new_value = self.login_attempts + increment
-        old_value = self.login_attempts
-        self.login_attempts = new_value if increment > 0 else old_value
+        self.login_attempts = self.login_attempts + increment
 
     def reset_login_attempts(self):
         self.login_attempts = 0
@@ -27,6 +25,6 @@ user1 = User("paulo", "martins", "pjfmartins83@gmail.com", "123456", "40", "bras
 user1.describe_user()
 user1.greet_user()
 user1.increment_login_attempts(5)
-print(user1.increment_login_attempts)
-user1.reset_login_attempts
-print(user1.reset_login_attempts)
+print(user1.login_attempts)
+user1.reset_login_attempts()
+print(user1.login_attempts)

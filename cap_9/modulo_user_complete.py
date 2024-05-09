@@ -26,8 +26,3 @@ class Privileges():
     def show_privileges(self):
         for privilege in self.privileges:
             print(privilege)
-
-
-privilege_list = ["can add post", "can delete post", "can ban user"]
-admin = Admin("Paulo", "Martins", privilege_list)
-admin.show_privileges()
