@@ -23,7 +23,6 @@ class Car():
 
 
 class Battery():
-
     def __init__(self):
         self.size = 70
 
