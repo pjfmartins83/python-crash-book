@@ -14,7 +14,7 @@ def add_two():
         if um == 0 and dois == 0:
             return False
         return True
-    
+
 
 while add_two():
     continue
