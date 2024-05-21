@@ -3,6 +3,7 @@ from letter_frequency_counter import letter_frequency_counter
 
 class TestLetterFrequencyCounter(unittest.TestCase):
 
+
     def test_letter_frequency_counter_1(self):
         self.assertEqual(letter_frequency_counter('a'), {'a': 1})
 
@@ -15,4 +16,3 @@ class TestLetterFrequencyCounter(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-

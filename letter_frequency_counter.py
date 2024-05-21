@@ -2,4 +2,10 @@
 
 
 def letter_frequency_counter(string):
-    pass
+    letter_0 = {}
+    for letter in string:
+        if letter():
+            letter_frequency_counter[letter] += 1
+        else:
+            letter_frequency_counter[letter] = 1
+    return letter_frequency_counter
